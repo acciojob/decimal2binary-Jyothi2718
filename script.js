@@ -9,8 +9,5 @@ function decimalToBinary(num){
 			 
 		 }
 		return binary; 
-	
-	
-
-	
 }
+console.log(decimalToBinary);
