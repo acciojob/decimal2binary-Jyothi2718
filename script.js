@@ -1,6 +1,6 @@
 function decimalToBinary(num){
 
-	 if(num===0) return 0;
+	 if(num===0) return '0';
       const binary = ' ';
 	
 		 while(num>0){ //7>0; 3>0;1>0
