@@ -1,7 +1,7 @@
 function decimalToBinary(num){
 
 	 if(num===0) return '0';
-      const binary = ' ';
+      let binary = ' ';
 	
 		 while(num>0){ //7>0; 3>0;1>0
 			binary = (num%2) + binary; // 1+'' =1 +1 = 11+1=111
